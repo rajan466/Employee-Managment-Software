@@ -1,0 +1,84 @@
+.choices {
+    position: relative;
+    margin-bottom: 0px !important;
+}
+
+.choices__inner {
+    border-radius: 5px !important;
+    font-size: 11px !important;
+    min-height: 30px !important;
+    padding: 2px 5px !important;
+    display: flex !important;
+    align-items: center !important;
+    margin: 0px 0px !important;
+}
+
+/* Dropdown options styling */
+.choices__list--dropdown .choices__item {
+    padding: 4px 20px !important;
+    font-size: 11px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+/* Searchable input field inside dropdown */
+.choices__list--dropdown .choices__input {
+    padding: 3px !important;
+    font-size: 11px !important;
+    height: 25px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+/* Dropdown insight text alignment fix */
+.choices__list--dropdown .choices__item {
+    align-items: center !important;
+}
+
+.choices__inner {
+    display: flex !important;
+}
+
+/* MAIN LAYOOUT */
+.page-content {
+    margin-top: -80px;
+}
+
+.container-fluid {
+    padding-top: 0 !important;
+}
+
+/*  */
+.custom-modal-width {
+    max-width: 95%;
+    width: 95%;
+}
+
+.custom-modal-height {
+    height: 80vh;
+    max-height: 80vh;
+}
+
+.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.modal-content {
+    margin: auto;
+}
+
+/*  */
+/* icons designing  */
+.edit-icon {
+    color: green;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.delete-icon {
+    color: red;
+    cursor: pointer;
+    font-size: 13px;
+}
